@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Ivanlizardo/">
-    <img src=".\assets\img\IvanLogo1-removebg-preview.png" alt="Nyebe" width="130" height="100">
+    <img src=".\assets\img\VectorIvan(White).png" alt="Ivan Logo" width="130" height="100">
   </a>
   <h3 align="center">WD-Seatwork-1</h3>
 </div>
