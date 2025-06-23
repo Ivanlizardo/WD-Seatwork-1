@@ -25,6 +25,31 @@ img {
   aspect-ratio: 1/1;
 }
 
+.pagination {
+  height: 2svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem 0;
+  position: relative;
+}
+
+.pagination::after {
+  content: "";
+  position: absolute;
+  height: 0.1rem;
+  width: 100%;
+  background-color: #232323;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.pagination .fa-solid:hover {
+  color: #16a5c9;
+}
+
 nav {
   position: fixed;
   height: 100svh;
