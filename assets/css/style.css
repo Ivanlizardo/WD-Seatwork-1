@@ -11,8 +11,14 @@ body {
   height: 100%;
 }
 
-body {
-  background: linear-gradient(to right, #02c2cd, #7a2de7);
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* Make sure it stays behind other content */
 }
 
 header {
@@ -36,10 +42,40 @@ section {
 .card {
   width: 60%;
   height: 15rem;
-  background-color: white;
+  background: rgba(255, 255, 255, 0.15);
   border-radius: 20px;
   display: flex;
-  box-shadow: 5px 5px rgba(0, 0, 0, 0.474);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  opacity: 0;
+}
+
+#card1 {
+  animation: slidetoleft 1s ease-out forwards;
+}
+
+#card2 {
+  animation: slidetoleft 1s ease-out forwards;
+  animation-delay: 0.25s;
+}
+
+#card3 {
+  animation: slidetoleft 1s ease-out forwards;
+  animation-delay: 0.5s;
+}
+
+#card4 {
+  animation: slidetoleft 1s ease-out forwards;
+  animation-delay: 0.75s;
+}
+
+#card5 {
+  animation: slidetoleft 1s ease-out forwards;
+  animation-delay: 1s;
 }
 
 img {
@@ -106,7 +142,8 @@ a {
 .description {
   display: flex;
   gap: 1rem;
-  margin-top: 2.3rem;
+  margin-top: auto;
+  margin-bottom: 1%;
   height: 2rem;
 }
 
@@ -186,8 +223,19 @@ footer {
     margin-top: 1rem;
   }
 }
-@media (max-width: 1752px) {
+@media (max-width: 1674px) {
   .description {
     display: none !important;
+  }
+}
+
+@keyframes slidetoleft {
+  0% {
+    transform: translateX(100px); /* start off-screen to the right */
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0); /* slide to original position */
+    opacity: 1;
   }
 }
