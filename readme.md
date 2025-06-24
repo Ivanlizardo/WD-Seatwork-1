@@ -11,7 +11,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  This project is demonstrating my skills in making  ???
+  This project is demonstrating my skills in making header and footer. I also added features such as responsiveness and animation as practice
 </div>
 
 <br />
