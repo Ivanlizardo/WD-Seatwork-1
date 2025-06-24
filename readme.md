@@ -50,7 +50,7 @@
 
 ## Overview
 
-This project is demonstrating my skills in making ???
+This project is demonstrating my skills in creating a functional and stylish header and footer. I also added features such as responsiveness and animation to practice modern web design techniques. The website includes hover effects, scroll animations, and a burger menu for mobile users. Its clean layout, smooth interactions, and user-friendly navigation reflect my growth in front-end development and attention to user experience.
 
 ### Key Components
 
