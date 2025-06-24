@@ -230,6 +230,20 @@ footer {
   }
 }
 
+@media (max-width: 391px) {
+  header h1 {
+    font-size: 0.6rem;
+  }
+  header {
+    padding: 0.1rem 2rem;
+  }
+
+  .mid h1 {
+    font-size: 0.8rem;
+  }
+
+}
+
 @keyframes slidetoleft {
   0% {
     transform: translateX(100px); /* start off-screen to the right */
