@@ -54,9 +54,11 @@ This project is demonstrating my skills in creating a functional and stylish hea
 
 ### Key Components
 
-- Single Page Website
-- Parallax transition
-- Transactional
+- Multi Page Website
+- Hover effects
+- Main page and website#5 is responsive
+- Have icons for navigationg each website
+- Scroll animation (website#4)
 
 ### Technology
 
