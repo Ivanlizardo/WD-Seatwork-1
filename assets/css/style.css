@@ -122,6 +122,13 @@ a {
   align-items: center;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 2rem;
+  border-top: 1px solid rgba(238, 130, 238, 0.247);
+}
+
 @media (max-width: 1486px) {
   .card {
     width: 80%;
