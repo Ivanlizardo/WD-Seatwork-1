@@ -30,6 +30,10 @@
 }
 
 .pagination .fa-solid:hover {
+  color: rgb(3, 154, 255);
+}
+
+.pagination .fa-solid {
   color: white;
 }
 
