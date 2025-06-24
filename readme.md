@@ -104,6 +104,10 @@ WD-ProjectName
 
 <!-- TODO: Add References -->
 
-| Title        | Purpose                                                                       | Link          |
-| ------------ | ----------------------------------------------------------------------------- | ------------- |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Title        | Purpose                                                       | Link                           |
+| ------------ | ------------------------------------------------------------- | ------------------------------ |
+| Text icons   | Use svg icons to easily edit when hovered, style, etc         | https://fontawesome.com/       |
+| Google Fonts | To use Montserrat font which provide readable and modern look | https://fonts.google.com/      |
+| Pinterest    | For easy idea gathering of design                             | https://ph.pinterest.com/      |
+| Canva        | For making my logo                                            | https://https://www.canva.com/ |
+| Photoshop    | For making my logo less pixalated                             | Application                    |
